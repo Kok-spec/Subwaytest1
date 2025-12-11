@@ -9,11 +9,11 @@ interface Props {
 
 function PanoramaViewer({ viewIndex }: Props) {
   const images = [
-    '/images/大谷地駅1.jpg',
-    '/images/大谷地駅2.jpg',
-    '/images/大谷地駅3.jpg',
-    '/images/大谷地駅4.jpg',
-    '/images/大谷地駅5.jpg',
+    '/images/view1.jpg',
+    '/images/view2.jpg',
+    '/images/view3.jpg',
+    '/images/view4.jpg',
+    '/images/view5.jpg',
   ];
 
   const texture = useLoader(TextureLoader, images[viewIndex]);
