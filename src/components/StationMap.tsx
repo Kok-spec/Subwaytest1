@@ -1,6 +1,6 @@
 
 import stryt from "./stryt.png";
-// import PanoramaViewer from "./PanoramaViewer";
+import PanoramaViewer from "./PanoramaViewer";
 import { useState } from "react";
 
 interface Props {
@@ -54,7 +54,7 @@ function StationMap({ className = "" }: Props) {
 
       {/* 画像出力 */}
       <div className="absolute w-[35.88%] h-[66.03%] top-[29.08%] left-[12.00%]">
-        {/* <PanoramaViewer viewIndex={viewIndex} /> */}
+        <PanoramaViewer viewIndex={viewIndex} />
       </div>
     </div>
   );
